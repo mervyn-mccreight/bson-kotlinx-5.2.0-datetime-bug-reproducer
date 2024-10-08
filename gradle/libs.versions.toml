@@ -9,6 +9,7 @@ mongodb-driver = { module = "org.mongodb:mongodb-driver-kotlin-coroutine", versi
 mongodb-bson-kotlinx = { module = "org.mongodb:bson-kotlinx", version.ref = "mongo" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter-engine" }
 kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version = "0.3.1" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }

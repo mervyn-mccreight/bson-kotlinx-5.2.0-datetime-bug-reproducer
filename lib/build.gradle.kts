@@ -14,6 +14,7 @@ dependencies {
     implementation(libs.kotlinx.serialization.core)
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testImplementation(libs.junit.jupiter.engine)
+    testImplementation(libs.kotlinx.datetime)
 }
 
 kotlin {
